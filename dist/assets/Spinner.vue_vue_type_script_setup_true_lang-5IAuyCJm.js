@@ -1,0 +1,1 @@
+import{d as a,z as r,v as n,L as p,g as i,p as l}from"./index-L-w6wPwL.js";const c=a({__name:"Spinner",props:{size:{default:20},class:{default:""}},setup(s){return(e,o)=>(l(),r(n(p),{size:Number(s.size),class:i(["animate-spin text-sapphire",e.$props.class])},null,8,["size","class"]))}});export{c as _};

@@ -1,0 +1,2 @@
+import{I as i}from"./index-L-w6wPwL.js";const t={log:(...a)=>{},info:(...a)=>{},warn:(...a)=>{},error:(...a)=>{},captureException:(a,s={})=>{try{const c={source:"vue-web",message:(a==null?void 0:a.message)||String(a),stack:a!=null&&a.stack?a.stack.split(`
+`).slice(0,2).join(" | "):null,context:{action:(s==null?void 0:s.action)??null},url:window.location.pathname};i.post("/logs",c).catch(()=>{})}catch{}}};export{t as l};

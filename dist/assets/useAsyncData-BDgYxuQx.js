@@ -1,0 +1,1 @@
+import{o as u,j as o}from"./index-L-w6wPwL.js";function c(n,s){const r=o(s),a=o(!0),e=o(!1);async function t(){a.value=!0,e.value=!1;try{r.value=await n()}catch{e.value=!0}finally{a.value=!1}}return u(t),{data:r,isLoading:a,isError:e,reload:t,refetch:t}}export{c as u};
